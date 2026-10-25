@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="/contact-me">
+        <label for="email">Username:</label>
+         <input type="text" id="email" placeholder="Enter your Name" required="true"> <br>
+         <label for="user_password">Password</label>
+        <input type="password" id="user_password" placeholder="Enter your Password"> <br>
+        Date: <input type="Date"> <br>
+        File: <input type="file"> <br>
+        Color: <input type="color"> <br>
+        Price Range: <input type="range"> <br>
+        <label for="male">Male:</label>
+        <input type="radio" id="male" name="gender" value="male"> <br>
+        <label for="Female">Female:</label>
+        <input type="radio" id="Female" name="gender" value="Female"> <br>
+          <label for="Other">Other:</label>
+        <input type="radio" id="Other" name="gender" value="Other"> <br>
+        <label for="c">C:</label>
+        <input type="checkbox" name="lang" id="c" value="c"> <br>
+        <label for="Java">Java:</label>
+        <input type="checkbox" name="lang" id="Java" value="Java" > <br>
+        <label for="Python">Python:</label>
+        <input type="checkbox" name="lang" id="Python" value="Python"> <br>
+        <label for="country">Select your country:</label>
+        <select name="country" id="country">
+            <option value="India">India:</option>
+            <option value="US">US:</option>
+            <option value="UK">UK:</option>
+            <option value="other">other:</option> 
+        </select> <br>
+        <textarea name="story" id="story" cols="20" rows="4">Please write a story</textarea>
+        <input type="submit" >
+    </form>
+</body>
+</html>
